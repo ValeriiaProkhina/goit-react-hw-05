@@ -39,9 +39,8 @@ export default function MovieDetailsPage() {
         <img
           className={css.img}
           src={
-            movie.poster_path
-              ? `https://image.tmdb.org/t/p/w300${movie.poster_path}`
-              : "../../defaultImg/preview.jpg"
+            movie.poster_path &&
+            `https://image.tmdb.org/t/p/w300${movie.poster_path}`
           }
           alt={movie.name}
           width="200"
