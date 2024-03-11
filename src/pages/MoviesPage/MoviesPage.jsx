@@ -32,6 +32,7 @@ export default function MoviesPage() {
 
   const handleSearchMovie = (values, actions) => {
     if (values.query.trim() === "") {
+      alert("Please enter movie!");
       return;
     }
     setError(false);
