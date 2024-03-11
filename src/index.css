@@ -39,20 +39,21 @@ img {
 
 button {
   max-width: fit-content;
-  border-radius: 4px;
-  border: 1px solid #000;
-  padding: 7px;
+  border-radius: 8px;
+  padding: 8px;
   font-weight: 500;
-  font-size: inherit;
+  font-size: 16px;
   font-family: inherit;
-  background-color: #dedede;
+  color: #fff;
+  border: 1px solid #07125c;
+  background-color: #07125c;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: scale 250ms ease-in-out;
 }
 button:hover {
-  border-color: #646cff;
+  transform: scale(1.1);
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto #3651eb;
+  transform: scale(1.08);
 }

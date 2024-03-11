@@ -1,0 +1,11 @@
+.container {
+  padding-top: 10px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text {
+  padding-top: 8px;
+}
